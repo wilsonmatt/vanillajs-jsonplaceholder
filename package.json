@@ -1,0 +1,11 @@
+{
+  "name": "vanillajs-jsonplaceholder",
+  "version": "1.0.0",
+  "description": "Vanilla JS project to fetch json data from Api",
+  "main": "index.js",
+  "scripts": {
+    "start": "open http://localhost:8080 && node server.js"
+  },
+  "author": "Matt Wilson",
+  "license": "ISC"
+}
