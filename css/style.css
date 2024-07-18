@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  :root {
+    --border-color: #ccc;
+    --white-smoke-color: whitesmoke;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+    max-width: 767px;
+    margin: 20px auto;
+  }
+  
+  ul {
+    list-style-type: none !important;
+  }
+  
+  .d-flex {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .my-1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .ml-10 {
+    margin-left: 10px;
+  }
+  
+  .rounded {
+    border-radius: 50%;
+  }
+  
+  .align-center {
+    align-items: center;
+  }
+  
+  .post-container {
+    padding: 10px 20px;
+    border: 1px solid var(--border-color);
+    margin: 10px 20px 20px 20px;
+    background-color: var(--white-smoke-color);
+    border-radius: 20px;
+  }
+  li .post-title {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 0;
+    text-transform: capitalize;
+  }
+  
+  .text-truncate {
+    display: inline-block;
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .post-body {
+    font-size: 15px;
+  }
+  
+  .seperator {
+    border: none;
+    border-bottom: 1px solid var(--border-color);
+    margin: 10px 0;
+  }
+  
+  .comment-container {
+    border: 1px solid var(--border-color);
+    padding: 0px 20px 20px 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+  }
+  
+  .comment-container .comment-email {
+    margin-left: 10px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+  }
+  
+  .comment-container .comment-body {
+    font-size: 14px;
+    text-transform: capitalize;
+  }
+  
+  .comment-header sup {
+    font-size: 14px;
+  }
